@@ -8,7 +8,7 @@ BlockDrift ranks keys by the magnitude of their count change and returns the sig
 
 ### Window comparisons
 
-![Fastest independent control for each window family and log; each cell gives control time divided by BlockDrift time.](figures/window-families.png)
+![Six panels compare the fastest independent control with BlockDrift on nine logs. Symbols identify the control, and horizontal lines span five paired timing ratios.](figures/window-families.png)
 
 A ratio above 1 favors BlockDrift. On ordinary windows, full-word BlockDrift beat the fastest independent control on seven of nine snapshots. Fixing the endpoint pairing preserved all seven wins.
 
